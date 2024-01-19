@@ -153,5 +153,5 @@ resource "random_password" "password" {
 
 resource "random_pet" "prefix" {
   prefix = var.prefix
-  length = 1
+  length = 2
 }
